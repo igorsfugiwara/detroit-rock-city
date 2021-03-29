@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000cf;
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+nav a, p, h1{
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    color: white;
+}
+li{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.parallax__home {
+    background-image: url("./img/poster.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.parallax__intro{
+    background-image: url("./img/love-gun.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax__highschool {
+    background-image: url("./img/Cedarbrae.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax__stbernards {
+    background-image: url("./img/trafalgar.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax__407 {
+    background-image: url("./img/road.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax__protesto {
+    background-image: url("./img/st-james.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax__confessionario {
+    background-image: url("./img/metropolitan-united-church.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax__chopshop {
+    background-image: url("./img/chopshop1.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax__cobohall {
+    background-image: url("./img/cobo_hall.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body div {
+      border-bottom: 10px solid white;
+  }
+  div{
+      display: flex;
+  }
+  div img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  }
+div p{
+    margin: 50px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #0000005e;
+    height: fit-content;
+}
+
+span{
+    margin: 50px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #0000005e;
+    height: fit-content;
+}
