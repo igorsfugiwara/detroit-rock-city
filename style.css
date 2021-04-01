@@ -122,6 +122,7 @@ i{
   background-image: url("./img/fiap.jpg");
   min-height: 99vh;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .fiap{
