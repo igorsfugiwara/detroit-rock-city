@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <header>
+        <h1><a href="#inicio">Detroit Rock City</a></h1>
     <nav>
-        <p>
-            <a href=".parallax__home">Detroit Rock City</a>
-        </p>
         <ul>
             <li>
-                <a href=".parallax__highschool">John F. Kennedy High School</a>
+                <a href="#highschool">Highschool</a>
             </li>
             <li>
-                <a href=".parallax__stbernards">St Bernards Veil of Tears </a>
+                <a href=".parallax__stbernards">Internato</a>
             </li>
             <li>
-                <a href=".parallax__407">407 Road</a>
+                <a href=".parallax__407">Estrada</a>
             </li>
             <li>
-                <a href=".parallax__protesto">Protesto de Mães anti-KISS</a>
+                <a href=".parallax__protesto">Protesto</a>
             </li>
             <li>
                 <a href=".parallax__confessionario">Confessionário</a>
@@ -36,43 +35,43 @@
             </li>
         </ul>
     </nav>
-    <div class="parallax__home">
-        <h1>Detroit Rock City</h1>
+  </header>
+    <div class="parallax parallax__home">
     </div>
-    <div class="parallax__intro">
+    <div id="inicio" class="parallax parallax__intro">
         
         <p><img src="./img/jam.jpg" alt="">Antes de começarmos nossa aventura, tenho que te contar algumas coisas bem importantes. 
             Ontem eu estava fazendo um som, chapando de maconha e de repente minha mãe chega furiosa no meio do ensaio. Eu esqueci meu LP do Kiss, o "Love Gun", na vitrola. Que erro.
          Ela me deu um esporro, até ai, tudo certo. Foda foi quando ela foi pegar meu casaco pra lavar e encontrou meus ingressos pro show da banda mais quente do mundo.</p>
          <span>Por mais que o filme se passe em Cleveland-Ohio e Detroit-Michingan, na verdade ele foi rodado em Toronto!</span>
     </div>
-    <div class="parallax__highschool">
+    <div id="highschool" class="parallax parallax__highschool">
         <p><img src="./img/jam.jpg" alt="">Estudo na John F. Kennedy High School, onde aquela velha se dirigiu pra me buscar pelo braço e me botar em um internato, porque ela acredita que KISS significa "Knights in Satan's Service". Ortodoxa e autoritaria como ninguém.
             Meus amigos foram ver se estava tudo certo com os ingressos e tiveram que correr do bedel.
         </p>
         <span>Uma vez que já sabemos que nosso set de filmagem fica em Toronto, e John F kennedy é realmente uma escola de Cleveland, temos que colocar a verdade na mesa: aquela escola é a "Cedarbrae Collegiate Institute". </span>
     </div>
-    <div class="parallax__stbernards">
+    <div class="parallax parallax__stbernards">
         <p> <img src="./img/jam.jpg" alt="">Saindo da Escola, ela, descontrolada me levou pra um internato, St Bernards Veil of Tears. Mas como quem tem amigo, tem tudo, os meus fizeram a boa!
             Invadiram o internato e colocaram cogumelos mágicas na pizza do padre chefe, possibilitando minha fuga! Próxima parada, Detroit!
         </p>
         <span>O palco para uma viagem de cogumelo e o resgate foi, na verdade, a "Trafalgar Castle School". É uma escola de garotas</span>
     </div>
-    <div class="parallax__407">
+    <div class="parallax parallax__407">
         <p>
             <img src="./img/jam.jpg" alt="">Um dos meus amigos coneguiu 4 ingressos para o Show, duma radio de Detroit. Na estrada tivemos pequenos problemas com um bando de mano tentando pagar de alfa. Chutamos o cú dele e ainda demos carona pra uma moça que tava com eles.
         </p>
         <span>Nossa estrada pra detroit seria a I-90W e I-75N. Essas são estradas estadunidenses. As cenas foram gravadas na 407 Road, na província de Ontário.</span>
         
     </div>
-    <div class="parallax__protesto">
+    <div class="parallax parallax__protesto">
         <p><img src="./img/jam.jpg" alt="">
             Chegando lá, descobrimos que nosso amigo não segurou a ligação até o final, por mais que ele tenha ganhado a promoção da radio, ficamos sem ingresso. Temos 1 hora e 45 min pra arranjar um jeito de entrar no show.
             Pra piorar, tava rolando um protesto anti-KISS. Advinha quem estava liderando? Pra meu desprazer, minha mãe. Desesperado, ela me leva a uma igreja e me força a "confessar".
         </p>
         <span>As imagens do foram feitas em frente da "The Cathedral Church of St. James"</span>
     </div>
-    <div class="parallax__confessionario">
+    <div class="parallax parallax__confessionario">
         <p><img src="./img/jam.jpg" alt="">
             Nessa onda torta, uma broto do meu colégio me avistou, e foi correndo atrás de mim. Ela entrou no confessionário comigo e as coisas ficaram finalmente boas. PERDI MINHA VIRGINDADE NO CONFESSIONÁRIO!!1!
         </p>
@@ -80,7 +79,7 @@
             Mudando assim a localização para a "Metropolitan United Church"
         </span>
     </div>
-    <div class="parallax__chopshop">
+    <div class="parallax parallax__chopshop">
         <p><img src="./img/jam.jpg" alt="">
             Esqueci de falar, lembra daquela moça que a gente deu carona? Ela roubou nosso carro! Ou melhor, foi o que pensavamos. Encontramos o carro prestes a ser desmanchado e ela prestes a ser abusada. Literalmente soltaram os cachorros pra salvar ela e o carro. 
         </p>
@@ -88,7 +87,7 @@
             Essa Auto-elétrica onde foi rodada essa cena, fica no final da Bayview Street. Perto do Cobo Hall! 
         </span>
     </div>
-    <div class="parallax__cobohall">
+    <div class="parallax parallax__cobohall">
         <p><img src="./img/jam.jpg" alt="">
             Por final, saimos na mão pra ter a desculpa que fomos assaltados. E a desculpa colou!! Vamos ver o KISS pelo terceiro ano consecutivo!
         </p>
@@ -98,5 +97,18 @@
     </div>
 
 
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          console.log(this.getAttribute('href'))
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
 </body>
 </html>
