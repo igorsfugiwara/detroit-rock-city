@@ -10,32 +10,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+  
 </head>
 
 <body>
     <header>
         <h1><a href="#inicio">Detroit Rock City</a></h1>
         <nav>
-            <ul>
-                <li>
+            <ul class="menu-list">
+                <li class="menu-list__item">
                     <a href="#highschool">Highschool</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#stbernards">Internato</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#road">Estrada</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#protesto">Protesto</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#confessionario">Confessionário</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#chopshop">Auto-elétrica</a>
                 </li>
-                <li>
+                <li class="menu-list__item">
                     <a href="#cobohall">Cobo Hall</a>
                 </li>
             </ul>
@@ -50,8 +51,8 @@
     </div>
     <div id="inicio" class="parallax parallax__intro">
 
-        <p class="inicio__text">
-            <img src="./img/jam.jpg" alt="">
+        <p class="inicio__text animation__right">
+            <img src="./img/jam.jpg" alt="The hotest band in the world, KISS">
             Antes de começarmos nossa aventura, tenho que te contar
             algumas coisas bem
             importantes.
@@ -59,83 +60,105 @@
             Eu esqueci meu LP do Kiss, o "Love Gun", na vitrola. Que erro.
             Ela me deu um esporro, até ai, tudo certo. Foda foi quando ela foi pegar meu casaco pra lavar e encontrou
             meus ingressos pro show da banda mais quente do mundo.
-            <i class="fas fa-long-arrow-alt-right arrow-icon"></i></p>
-        <span>Por mais que o filme se passe em Cleveland-Ohio e Detroit-Michingan, na verdade ele foi rodado em
-            Toronto!</span>
-    </div>
+            <a href="#highschool">continue...</a> 
+        </p>
+        <span class="parallax__informativo">
+            Por mais que o filme se passe em Cleveland-Ohio e Detroit-Michingan, na verdade ele foi rodado em
+            Toronto!
+        </span>
+    </div> 
     <div id="highschool" class="parallax parallax__highschool">
-        <p><img src="./img/jam.jpg" alt="">Estudo na John F. Kennedy High School, onde aquela velha se dirigiu pra me
+        <span class="parallax__informativo">
+            Uma vez que já sabemos que nosso set de filmagem fica em Toronto, e John F kennedy é realmente uma escola
+            de Cleveland, temos que colocar a verdae na mesa: aquela escola é a "Cedarbrae Collegiate Institute".
+        </span>
+        <p class="inicio__text animation__left">
+            <img src="./img/jam.jpg" alt="Cedarbrae Collegiate Institute">Estudo na John F. Kennedy High School, onde aquela velha se dirigiu pra me
             buscar pelo braço e me botar em um internato, porque ela acredita que KISS significa "Knights in Satan's
             Service". Ortodoxa e autoritaria como ninguém.
             Meus amigos foram ver se estava tudo certo com os ingressos e tiveram que correr do bedel.
+            <a href="#stbernards">continue...</a> 
         </p>
-        <span>Uma vez que já sabemos que nosso set de filmagem fica em Toronto, e John F kennedy é realmente uma escola
-            de Cleveland, temos que colocar a verdade na mesa: aquela escola é a "Cedarbrae Collegiate Institute".
-        </span>
     </div>
     <div id="stbernards" class="parallax parallax__stbernards">
-        <p> <img src="./img/jam.jpg" alt="">Saindo da Escola, ela, descontrolada me levou pra um internato, St Bernards
+        <p class="inicio__text animation__right"> 
+            <img src="./img/jam.jpg" alt="Trafalgar Castle School">
+            Saindo da Escola, ela, descontrolada me levou pra um internato, St Bernards
             Veil of Tears. Mas como quem tem amigo, tem tudo, os meus fizeram a boa!
             Invadiram o internato e colocaram cogumelos mágicas na pizza do padre chefe, possibilitando minha fuga!
             Próxima parada, Detroit!
+            <a href="#road">continue...</a> 
         </p>
-        <span>O palco para uma viagem de cogumelo e o resgate foi, na verdade, a "Trafalgar Castle School". É uma escola
-            de garotas</span>
+        <span class="parallax__informativo">
+            O palco para uma viagem de cogumelo e o resgate foi, na verdade, a "Trafalgar Castle School". É uma escola
+            de garotas
+        </span>
     </div>
     <div id="road" class="parallax parallax__407">
-        <p>
-            <img src="./img/jam.jpg" alt="">Um dos meus amigos coneguiu 4 ingressos para o Show, duma radio de Detroit.
+        <span class="parallax__informativo ">
+            Nossa estrada pra detroit seria a I-90W e I-75N. Essas são estradas estadunidenses. As cenas foram
+            gravadas na 407 Road, na província de Ontário.
+        </span>
+        <p class="inicio__text animation__left">
+            <img src="./img/jam.jpg" alt="407 road na província de Ontário ">Um dos meus amigos coneguiu 4 ingressos para o Show, duma radio de Detroit.
             Na estrada tivemos pequenos problemas com um bando de mano tentando pagar de alfa. Chutamos o cú dele e
             ainda demos carona pra uma moça que tava com eles.
+            <a href="#protesto">continue...</a> 
         </p>
-        <span>Nossa estrada pra detroit seria a I-90W e I-75N. Essas são estradas estadunidenses. As cenas foram
-            gravadas na 407 Road, na província de Ontário.</span>
-
     </div>
     <div id="protesto" class="parallax parallax__protesto">
-        <p><img src="./img/jam.jpg" alt="">
+        <p class="inicio__text animation__right"><img src="./img/jam.jpg" alt="Protesto de mãess anti-kiss">
             Chegando lá, descobrimos que nosso amigo não segurou a ligação até o final, por mais que ele tenha ganhado a
             promoção da radio, ficamos sem ingresso. Temos 1 hora e 45 min pra arranjar um jeito de entrar no show.
             Pra piorar, tava rolando um protesto anti-KISS. Advinha quem estava liderando? Pra meu desprazer, minha mãe.
             Desesperado, ela me leva a uma igreja e me força a "confessar".
+            <a href="#confessionario">continue...</a>
         </p>
-        <span>As imagens do foram feitas em frente da "The Cathedral Church of St. James"</span>
+        <span class="parallax__informativo">
+            As imagens do foram feitas em frente da "The Cathedral Church of St. James"
+        </span>
     </div>
     <div id="confessionario" class="parallax parallax__confessionario">
-        <p><img src="./img/jam.jpg" alt="">
-            Nessa onda torta, uma broto do meu colégio me avistou, e foi correndo atrás de mim. Ela entrou no
-            confessionário comigo e as coisas ficaram finalmente boas. PERDI MINHA VIRGINDADE NO CONFESSIONÁRIO!!1!
-        </p>
-        <span>As imagens do confessionário seriam na mesma igreja, St. James, mas algo deu errado, quando o clero soube
+        <span class="parallax__informativo ">
+            As imagens do confessionário seriam na mesma igreja, St. James, mas algo deu errado, quando o clero soube
             que teria uma cena de sexo no confessionário.
             Mudando assim a localização para a "Metropolitan United Church"
         </span>
+        <p class="inicio__text animation__left">
+            Nessa onda torta, uma broto do meu colégio me avistou, e foi correndo atrás de mim. Ela entrou no
+            confessionário comigo e as coisas ficaram finalmente boas. PERDI MINHA VIRGINDADE NO CONFESSIONÁRIO!!1!
+            <a href="#chopshop">continue...</a> 
+        </p>
     </div>
     <div id="chopshop" class="parallax parallax__chopshop">
-        <p><img src="./img/jam.jpg" alt="">
+        <p class="inicio__text animation__right">
+            <img src="./img/jam.jpg" alt="Auto elétrica na Bayview street">
             Esqueci de falar, lembra daquela moça que a gente deu carona? Ela roubou nosso carro! Ou melhor, foi o que
             pensavamos. Encontramos o carro prestes a ser desmanchado e ela prestes a ser abusada. Literalmente soltaram
             os cachorros pra salvar ela e o carro.
+            <a href="#cobohall">continue...</a> 
         </p>
-        <span>
+        <span class="parallax__informativo">
             Essa Auto-elétrica onde foi rodada essa cena, fica no final da Bayview Street. Perto do "Cobo Hall"!
         </span>
     </div>
     <div id="cobohall" class="parallax parallax__cobohall">
-        <p><img src="./img/jam.jpg" alt="">
-            Por final, saimos na mão pra ter a desculpa que fomos assaltados. E a desculpa colou!! Vamos ver o KISS pelo
-            terceiro ano consecutivo!
-        </p>
-        <span>
+        <span class="parallax__informativo ">
             Cobo Hall é de fato uma casa de show em Detroit, popularmente conhecida como TCF Center, hoje em dia. Mas
             como você se lembra, o filme foi gravado em Toronto. A arena que usaram como Cobo hall foi na verdade a
-            Copps Coliseum em Hamilton, Canadá.
+            Copps Coliseum em Hamilton, Canadá .
         </span>
+        <p class="inicio__text animation__left"><img src="./img/jam.jpg" alt="Cobo Hall em Detroit">
+            Por final, saimos na mão pra ter a desculpa que fomos assaltados. E a desculpa colou!! Vamos ver o KISS pelo
+            terceiro ano consecutivo!
+            <a href="#fiap">continue...</a> 
+        </p>
     </div>
     <div class="parallax parallax_fiap">
-        <div class="fiap">
+        <div class="fiap" id="fiap">
             <p> Desenvolvido por:</p>
-            <p> <a href="https://www.linkedin.com/in/igor-sim%C3%B5es-fugiwara-2283b2205/" target="_blank">Igor Simões
+            <p> 
+                <a href="https://www.linkedin.com/in/igor-sim%C3%B5es-fugiwara-2283b2205/" target="_blank">Igor Simões
                     Fugiwara</a> ,
                 <a href="https://www.linkedin.com/in/lucas-moura-18628468/" target="_blank">Lucas Lopes de Moura</a>,
                 <a href="https://www.linkedin.com/in/paulo-demutti/" target="_blank">Paulo Cesar Pereira Demutti</a>.

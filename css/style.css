@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Open+Sans:wght@400;500;700&display=swap');
 
 :root {
   --titleFont: 'Lexend';
-  --textFont: 'Noto Sans JP';
+  --textFont: 'Open Sans';
   --white: #fff;
   font-size: 16px;
 }
@@ -14,6 +14,9 @@
   text-decoration: none;
 }
 
+body{
+  overflow-x: hidden;
+}
 
 *:visited {
   text-decoration: none;
@@ -22,9 +25,9 @@
 
 
 header {
-  background-color: #000000a1;
+  background-color: #000000d9;
   display: flex;
-  height: 150px;
+  height: 100px;
   position:fixed;
   width: 100vw;
   align-items: center;
@@ -58,6 +61,11 @@ header nav ul li:not(:last-child) a:after {
   margin: 0 10px;
 }
 
+.menu-list li a:hover{
+  color: #D4B300;
+}
+
+
 p, span{
   font-family: var(--textFont)
 }
@@ -67,7 +75,9 @@ ul{
   list-style: none;
   justify-content: space-between;
 }
-
+.parallax__home a i {
+  background-color: #000c;
+}
 i{
   font-size: 6em;
     text-shadow: 4px 4px black;
@@ -75,7 +85,7 @@ i{
     padding: 0.5em;
 }
 .parallax {
-  min-height: 99vh;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,14 +154,25 @@ div img{
 }
 
 span{
-  margin: 50px;
+  /* margin: 50px;
   padding: 5px;
   font-size: 20px;
   color: rgb(255, 255, 0);
   background-color: #0000005e;
-  height: fit-content;
+  height: fit-content; */
 }
 
+.parallax__informativo {
+  margin: 50px;
+  padding: 39px;
+  color: white;
+  /* #D4B300; */
+  background-color: #000c;
+  height: fit-content;
+  font-size:2rem;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
 
 #inicio {
   display: flex;
@@ -160,14 +181,21 @@ span{
 
 
 .inicio__text {
-  max-width: 20vw;
+  max-width: 50%;
   padding: 2rem;
-  background-color: #c0c;
+  background-color: #feee7a;
+  color: 	#1C2833;
   font-size: 1.2rem;
   position: relative;
-  margin-left: 5vw;
+  margin: 0 5vw;
+  border-radius: 2px;
 }
-
+.inicio__text a{
+  display: flex;
+  justify-content: flex-end;
+  color: #1C2833;
+  font-weight: bold;
+}
 .inicio__text img {
   float: left;
   margin-right: 20px;
@@ -180,4 +208,12 @@ span{
   right: 0px;
   color: black;
   bottom: -10px;
+  transform: rotate(90deg);
+  cursor: pointer;
+  color: #D4B300;
+}
+.fiap{
+  font-size: 1.4em;
+    color: white;
+    margin: 2em;
 }
