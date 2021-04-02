@@ -19,4 +19,8 @@ window.onscroll = function() {
     } else {
       document.querySelector("header").style.top = "-150px";
   }
+
+
+  var text = document.querySelector('.inicio__text');
+  text.style.right = (text.getBoundingClientRect().top / 2) - 200 + 'px' 
 }
