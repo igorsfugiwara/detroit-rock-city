@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detroit Rock City</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
@@ -50,12 +50,16 @@
     </div>
     <div id="inicio" class="parallax parallax__intro">
 
-        <p><img src="./img/jam.jpg" alt="">Antes de começarmos nossa aventura, tenho que te contar algumas coisas bem
+        <p class="inicio__text">
+            <img src="./img/jam.jpg" alt="">
+            Antes de começarmos nossa aventura, tenho que te contar
+            algumas coisas bem
             importantes.
             Ontem eu estava fazendo um som, chapando de maconha e de repente minha mãe chega furiosa no meio do ensaio.
             Eu esqueci meu LP do Kiss, o "Love Gun", na vitrola. Que erro.
             Ela me deu um esporro, até ai, tudo certo. Foda foi quando ela foi pegar meu casaco pra lavar e encontrou
-            meus ingressos pro show da banda mais quente do mundo.</p>
+            meus ingressos pro show da banda mais quente do mundo.
+            <i class="fas fa-long-arrow-alt-right arrow-icon"></i></p>
         <span>Por mais que o filme se passe em Cleveland-Ohio e Detroit-Michingan, na verdade ele foi rodado em
             Toronto!</span>
     </div>
@@ -146,21 +150,7 @@
 
     </div>
 
-
-
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                console.log(this.getAttribute('href'))
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
